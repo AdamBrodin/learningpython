@@ -18,5 +18,13 @@ print("\n" + rageText.lower())
 
 famousQuote = "SAY HELLO TO MY LITTLE FRIEND"
 modifiedQuote = famousQuote.replace("FRIEND", "BOPE")
-print(modifiedQuote.lower())
+print("\n" + modifiedQuote.lower())
 # replace() replaces text within a string with another string
+
+spacedText = "     I like apples  "
+print("\n" + spacedText.strip())
+# strip() removes any white spaces/blanks in the beginning and end of a string | lstrip() for beginning | rstrip() for end
+
+print("\n" + "bope")
+print("\t bope")
+# \n adds a new line to the string | \t adds a tab to the string
