@@ -6,9 +6,9 @@ firstname, lastname = "adam", "brodin"
 name = firstname + " " + lastname
 
 print("Hello, " + firstname)
+# title() capitalises the first letter of each word in the string
 print("#1 lastname is " + lastname.title())
 print("Your full name is " + name.title())
-# title() capitalises the first letter of each word in the string
 
 favoriteMovie = "My favorite movie is Interstellar"
 print(favoriteMovie)
@@ -16,19 +16,19 @@ print(favoriteMovie)
 print("Interstellar index at: " + str(favoriteMovie.find("Interstellar")))
 
 rageText = "I LOVE CAPSLOCK!!!"
-print(rageText.lower())
 # lower() makes the string all lowercase
+print(rageText.lower())
 
 # replacing, stripping and removing spaces & lines #
 famousQuote = "\nSAY HELLO TO MY LITTLE FRIEND"
+# replace() replaces text within a string with another string
 modifiedQuote = famousQuote.replace("FRIEND", "BOPE")
 print(modifiedQuote.lower())
-# replace() replaces text within a string with another string
 
 spacedText = "     I like apples  "
-print(spacedText.strip())
 # strip() removes any white spaces/blanks in the beginning and end of a string | lstrip() for beginning | rstrip() for end
+print(spacedText.strip())
 
+# \n adds a new line to the string | \t adds a tab to the string
 print("\n" + "bope")
 print("\t bope")
-# \n adds a new line to the string | \t adds a tab to the string
